@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAMSUNG GROUP ASSIGNMENT</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="services.html">SERVICES</a></li>
+  <li><a href="blog.html">BLOG</a></li>
+<li><a href="contact.html">CONTACT</a></li></ul>
+</head>
+<br><br>
+<body>
+
+<style type="text/css">
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ol li{
+    line-height: 25px
+}
+
+ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+ .txt-center {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+.rating {
+    width: 90px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+}
+
+.rating > label {
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+    color: #000;
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+    color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 5%;
+}
+label{
+    margin-left: 5%;
+}
+input[type=submit] {
+  background-color: white;
+  color: navy;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+input[type=submit]:hover {
+  background-color: navy;
+  color:white;
+  margin-left: 5%;
+}
+h3{
+    margin-left: 5%;
+}
+.container {
+  border-radius: 5px;
+  background-color: #navy;
+  padding: 20px;
+}
+form{
+    background-color: #221177;
+    width: 40%;
+    border-radius: 10%;
+    opacity: 0.9;
+}
+.rating{
+    margin-left: 5%;
+}
+
+</style>
+
+<div class="body">
+    <div class="1">
+            <a href="watch.jpg"><img src="watch.jpg" width="20%"></a><p>For Samsung Galaxy S23 Ultra S22+ A53 A73 Smart Music Call Watch Touchscreen Smart Watch with Heart Rate Tracking Sleep Monitor<br><b>M433.99</b></p></div>
+
+    <div class="1">
+        <a href="a13.jpg"><img src="a13.jpg"></a><br><br><br><p>Released 2022, March 23195g,up to Android 13, One UI 5.1 32GB/64GB/128GB storage, microSDXC<br><b>M2599.99</b></p></div>
+
+    <div class="1">
+        <a href="a10pro.jpg"><img src="a10pro.jpg"></a><p>Galaxy A10 Pro<br>
+            <br>Released 2019, March 19,168g, 7.9mm thickness,Android 9.0, up to Android 11, One UI 3,32GB storage, microSDXC<br><b>M3299.99</b></p></div>
+
+    <div class="1">
+        <a href="a21s.jpg"><img src="a21s.jpg"></a><p>Galaxy A21s<br>Released 2020, June 02, 192g, 8.9mm thickness,Android 10, up to Android 12, One UI 4.1,32GB/64GB/128GB storage, microSDXC<br><b>M2599.99</b></p></div>
+
+    <div class="1">
+        <a href="a51.jpg"><img src="a51.jpg"></a><p>Galaxy A51<br>Released 2019, December 16,172g, 7.9mm thickness, Android 10, up to Android 13, One UI 564GB/128GB/256GB storage, microSDXC<br><b>M5599.99</b></p></div>
+
+
+<div class="container">
+  <form>
+    <br>
+    <br>
+    <h3>Review Form</h3>
+    <br><br>
+    <label for="fname">First Name</label>
+    <br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <br>
+
+
+    <label for="lname">Last Name</label>
+    <br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br>
+    <h3>Please rank the service delivery out of 5 stars</h3>
+    <br>
+ <div class="rating">
+            <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
+            <label for="star5">☆</label>
+            <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
+            <label for="star4">☆</label>
+            <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
+            <label for="star3">☆</label>
+            <input id="star2" name="star" type="radio" value="2" class="radio-btn hide" />
+            <label for="star2">☆</label>
+            <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" />
+            <label for="star1">☆</label>
+            <div class="clear"></div>
+        </div>
+        <br>
+    <label for="subject">Please State your review</label>
+    <br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <br>
+    <input type="submit" value="Submit"><br><br>
+  </form>
+</div>
+
+</body>
+</html>
